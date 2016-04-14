@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BigUtil_Example', :exclusive => true do
+  pod 'BigUtil', :path => '../'
+end
+
+target 'BigUtil_Tests', :exclusive => true do
+  pod 'BigUtil', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+end

@@ -1,0 +1,6 @@
+framework module Pods_BigUtil_Tests {
+  umbrella header "Pods-BigUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
