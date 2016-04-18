@@ -19,7 +19,7 @@
  *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name, and the mainStoryboard helper being previously set. 
     @see https://github.com/klaaspieter/KPAStoryboardConvenience
  */
-+ (instancetype) CU_instantiateFromMainStoryboard;
++ (instancetype) BIG_instantiateFromMainStoryboard;
 
 
 /**
@@ -31,7 +31,7 @@
  *
  *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name.
  */
-+ (instancetype) CU_instantiateFromStoryboardNamed:(NSString*)storyboardName;
++ (instancetype) BIG_instantiateFromStoryboardNamed:(NSString*)storyboardName;
 
 /**
  *  Instantiates a new instance of the view controller type from the passed storyboard.
@@ -42,6 +42,6 @@
  *
  *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name.
  */
-+ (instancetype) CU_instantiateFromStoryboard:(UIStoryboard*)storyboard;
++ (instancetype) BIG_instantiateFromStoryboard:(UIStoryboard*)storyboard;
 
 @end
