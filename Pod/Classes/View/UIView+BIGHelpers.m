@@ -7,6 +7,7 @@
 //
 
 #import "UIView+BIGHelpers.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation UIView (BIGHelpers)
 
@@ -29,6 +30,12 @@
     } else {
         return nil;
     }
+}
+
+- (void) BIG_roundCornersWithRadius:(CGFloat)radius
+{
+    self.layer.cornerRadius = radius;
+    self.clipsToBounds = YES;
 }
 
 @end

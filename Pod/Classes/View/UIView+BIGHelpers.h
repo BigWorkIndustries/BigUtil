@@ -23,4 +23,12 @@
  */
 - (UIViewController *) BIG_parentViewController;
 
+
+/**
+ *  Sets rounded corners on the view.
+ *
+ *  @param radius The radius of the rounded corners.
+ */
+- (void) BIG_roundCornersWithRadius:(CGFloat)radius;
+
 @end
