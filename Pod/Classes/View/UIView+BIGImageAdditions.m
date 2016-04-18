@@ -1,14 +1,14 @@
 //
-//  UIView+ImageAdditions.m
+//  UIView+BIGImageAdditions.m
 //  Pods
 //
 //  Created by Vincil Bishop on 10/16/15.
 //
 //
 
-#import "UIView+ImageAdditions.h"
+#import "UIView+BIGImageAdditions.h"
 
-@implementation UIView (ImageAdditions)
+@implementation UIView (BIGImageAdditions)
 
 - (UIImage *)BIG_image
 {

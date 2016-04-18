@@ -13,9 +13,11 @@
 #endif
 
 #import "UICollectionViewCell+BIGStoryboardHelper.h"
+#import "UILabel+BIGFontAppearance.h"
 #import "UILocalNotification+BIGAdditions.h"
+#import "UINavigationItem+BIGTitleImage.h"
 #import "UITableViewCell+BIGStoryboardHelper.h"
 #import "UIView+BIGHelpers.h"
-#import "UIView+ImageAdditions.h"
-#import "UIView+NibAdditions.h"
+#import "UIView+BIGImageAdditions.h"
+#import "UIView+BIGNibAdditions.h"
 #import "UIViewController+BIGStoryboardHelper.h"

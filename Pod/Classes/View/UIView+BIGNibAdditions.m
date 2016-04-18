@@ -1,14 +1,14 @@
 //
-//  UIView+NibAdditions.m
+//  UIView+BIGNibAdditions.m
 //  Pods
 //
 //  Created by Vincil Bishop on 10/16/15.
 //
 //
 
-#import "UIView+NibAdditions.h"
+#import "UIView+BIGNibAdditions.h"
 
-@implementation UIView (NibAdditions)
+@implementation UIView (BIGNibAdditions)
 
 + (instancetype) BIG_viewWithNibNamed:(NSString*)nibName bundle:(NSBundle*)bundle
 {
