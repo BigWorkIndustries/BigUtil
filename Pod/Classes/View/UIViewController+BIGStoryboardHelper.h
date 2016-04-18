@@ -12,12 +12,36 @@
 @interface UIViewController (StoryboardHelper)
 
 /**
- *  Instantiates a new instance of the view controller type from the storyboard.
+ *  Instantiates a new instance of the view controller type from the main storyboard.
  *
  *  @return A new instance of the view controller.
  *
- *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name, and the mainStoryboard helper being previously set.
+ *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name, and the mainStoryboard helper being previously set. 
+    @see https://github.com/klaaspieter/KPAStoryboardConvenience
  */
-+ (instancetype) BIG_instantiateFromStoryboard;
++ (instancetype) CU_instantiateFromMainStoryboard;
+
+
+/**
+ *  Instantiates a new instance of the view controller type from the named storyboard.
+ *
+ *  @param storyboardName The name of the storyboard to use.
+ *
+ *  @return A new instance of the view controller.
+ *
+ *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name.
+ */
++ (instancetype) CU_instantiateFromStoryboardNamed:(NSString*)storyboardName;
+
+/**
+ *  Instantiates a new instance of the view controller type from the passed storyboard.
+ *
+ *  @param storyboard An instance of the storyboard to use.
+ *
+ *  @return A new instance of the view controller.
+ *
+ *  @discussion This helper method depends on the view controller's storyboard identifier being set to the class name.
+ */
++ (instancetype) CU_instantiateFromStoryboard:(UIStoryboard*)storyboard;
 
 @end

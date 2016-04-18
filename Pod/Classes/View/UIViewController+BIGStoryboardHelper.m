@@ -11,9 +11,22 @@
 
 @implementation UIViewController (StoryboardHelper)
 
-+ (instancetype) CU_instantiateFromStoryboard
++ (instancetype) CU_instantiateFromMainStoryboard
 {
     return [[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
 }
+
+
++ (instancetype) CU_instantiateFromStoryboardNamed:(NSString*)storyboardName
+{
+    return [[UIStoryboard storyboardWithName:storyboardName bundle:nil] instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+}
+
+
++ (instancetype) CU_instantiateFromStoryboard:(UIStoryboard*)storyboard
+{
+    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
+}
+
 
 @end
