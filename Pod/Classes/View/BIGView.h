@@ -12,6 +12,7 @@
 
 #endif
 
+#import "UIButton+BIGInvertColor.h"
 #import "UICollectionViewCell+BIGStoryboardHelper.h"
 #import "UILabel+BIGFontAppearance.h"
 #import "UILocalNotification+BIGAdditions.h"
