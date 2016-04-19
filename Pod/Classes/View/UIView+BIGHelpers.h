@@ -31,4 +31,13 @@
  */
 - (void) BIG_roundCornersWithRadius:(CGFloat)radius;
 
+
+/**
+ *  Sets the border width and color.
+ *
+ *  @param width border width.
+ *  @param color border color.
+ */
+- (void) BIG_borderWithWidth:(CGFloat)width color:(UIColor*)color;
+
 @end

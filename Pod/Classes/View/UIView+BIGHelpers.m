@@ -38,4 +38,11 @@
     self.clipsToBounds = YES;
 }
 
+- (void) BIG_borderWithWidth:(CGFloat)width color:(UIColor*)color
+{
+    self.layer.borderWidth = width;
+    self.layer.borderColor = color.CGColor;
+}
+
+
 @end
