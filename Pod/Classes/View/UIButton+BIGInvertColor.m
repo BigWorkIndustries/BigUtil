@@ -12,6 +12,8 @@
 
 - (void) BIG_configureInvertedHighlightColors
 {
+    self.layer.borderWidth = 1.0f;
+    self.layer.borderColor = self.backgroundColor.CGColor;
     [self addTarget:self action:@selector(BIG_buttonHighlight:) forControlEvents:UIControlEventTouchDown];
     [self addTarget:self action:@selector(BIG_buttonNormal:) forControlEvents:UIControlEventTouchUpInside];
 }
