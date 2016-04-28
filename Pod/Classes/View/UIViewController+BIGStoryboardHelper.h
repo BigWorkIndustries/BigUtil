@@ -44,4 +44,11 @@
  */
 + (instancetype) BIG_instantiateFromStoryboard:(UIStoryboard*)storyboard;
 
+/**
+ *  Returns the instance inside of a UINavigationController.
+ *
+ *  @return A UINavigationController instance with self as the root view controller.
+ */
+- (UINavigationController*) BIG_inNavController;
+
 @end

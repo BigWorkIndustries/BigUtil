@@ -28,5 +28,9 @@
     return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(self)];
 }
 
+- (UINavigationController*) BIG_inNavController
+{
+    return [[UINavigationController alloc] initWithRootViewController:self];
+}
 
 @end
