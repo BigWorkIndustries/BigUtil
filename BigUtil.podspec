@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
     
     for subspec in subspecArray
         s.subspec subspec do |spec|
-            spec.source_files = "Classes/#{subspec}/*.{h,m}"
+            spec.source_files = "Pod/Classes/#{subspec}/*.{h,m}"
             
             if  subspec == "All"
                 for all_subspecs in subspecArray
