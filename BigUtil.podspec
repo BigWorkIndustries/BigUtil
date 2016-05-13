@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                        A collection of ever useful yet hard to reproduce utilities, helpers, and categories for iOS/Objective-C.
+                        A BIG collection of ever useful yet hard to reproduce utilities, helpers, and categories for iOS/Objective-C.
 						DESC
 
   s.homepage         = "https://github.com/bigworkindustries/BigUtil"
