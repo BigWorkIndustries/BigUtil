@@ -18,8 +18,8 @@ typedef void (^BIGCompletionBlock)(id sender, BOOL success, NSError *error, id r
 
 typedef void (^BIGStateChangeBlock)(id sender, id oldState, id newState);
 
-#define BIG_STRONG_BLOCK(__RESULT_TYPE__) \
-void (^)(__RESULT_TYPE__ sender)
+#define BIG_STRONG_BLOCK(__RESULT_TYPE__,__NAME__) \
+void (^)(__RESULT_TYPE__ __NAME__)
 
 #define BIG_STRONG_COMPLETION(__RESULT_TYPE__) \
 void (^)(id sender, BOOL success, NSError *error, __RESULT_TYPE__ result)
