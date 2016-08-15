@@ -8,7 +8,6 @@
 
 #ifndef Pods_BIGStandardUtils_h
 #define Pods_BIGStandardUtils_h
-#endif
 
 #import "BIGBlocks.h"
 #import "BIGCategories.h"
@@ -17,3 +16,6 @@
 #import "BIGLogging.h"
 #import "BIGNetworking.h"
 #import "BIGView.h"
+
+#endif
+

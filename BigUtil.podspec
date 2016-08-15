@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  subspecArray = ["All","Blocks","Defines","Environment","Logging","Networking","View"]
+  subspecArray = ["All","Blocks","Categories","Defines","Environment","Logging","Networking","View"]
     
     for subspec in subspecArray
         s.subspec subspec do |spec|
