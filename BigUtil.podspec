@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BigUtil"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "A collection of ever useful yet hard to reproduce utilities, helpers, and categories for iOS/Objective-C."
 
 # This description is used to generate tags and improve search results.
@@ -27,19 +27,22 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/bigworkindustries/BigUtil.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*.{h,m}'
-  s.resource_bundles = {
-    'BigUtil' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'BigUtil' => ['Pod/Assets/*.png']
+  #}
+  
+  s.pod_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  subspecArray = ["All","Blocks","Defines","Environment","Logging","Networking","View"]
+  subspecArray = ["All","Blocks","Categories","Defines","Environment","Logging","Networking","View"]
     
     for subspec in subspecArray
         s.subspec subspec do |spec|
