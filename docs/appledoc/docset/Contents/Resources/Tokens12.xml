@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UICollectionViewCell+BIGStoryboardHelper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UICollectionViewCell(BIGStoryboardHelper)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICollectionViewCell+BIGStoryboardHelper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICollectionViewCell/BIG_identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICollectionViewCell+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)BIG_identifier</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_identifier</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICollectionViewCell/BIG_loadFromNib</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICollectionViewCell+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_loadFromNib</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_loadFromNib</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICollectionViewCell/BIG_loadFromNibNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICollectionViewCell+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_loadFromNibNamed:(NSString *)nibName</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_loadFromNibNamed:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

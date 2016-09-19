@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+BIGImageAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(BIGImageAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+BIGImageAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+BIGImageAdditions.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)BIG_image</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_image</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

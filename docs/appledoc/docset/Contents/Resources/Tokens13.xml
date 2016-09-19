@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UILabel+BIGFontAppearance.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UILabel(BIGFontAppearance)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILabel+BIGFontAppearance.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/setUI_APPEARANCE_SELECTOR:</TokenIdentifier>
+			<Abstract type="html">The common appearance font.</Abstract>
+			<DeclaredIn>UILabel+BIGFontAppearance.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) UIFont *UI_APPEARANCE_SELECTOR</Declaration>
+			
+			
+			<Anchor>//api/name/UI_APPEARANCE_SELECTOR</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILabel/UI_APPEARANCE_SELECTOR</TokenIdentifier>
+			<Abstract type="html">The common appearance font.</Abstract>
+			<DeclaredIn>UILabel+BIGFontAppearance.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) UIFont *UI_APPEARANCE_SELECTOR</Declaration>
+			
+			
+			<Anchor>//api/name/UI_APPEARANCE_SELECTOR</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UILabel/UI_APPEARANCE_SELECTOR</TokenIdentifier>
+			<Abstract type="html">The common appearance font.</Abstract>
+			<DeclaredIn>UILabel+BIGFontAppearance.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) UIFont *UI_APPEARANCE_SELECTOR</Declaration>
+			
+			
+			<Anchor>//api/name/UI_APPEARANCE_SELECTOR</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

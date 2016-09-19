@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+BIGNibAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(BIGNibAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+BIGNibAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_viewWithNibNamed:bundle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+BIGNibAdditions.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_viewWithNibNamed:(NSString *)nibName bundle:(NSBundle *)bundle</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_viewWithNibNamed:bundle:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_viewWithNib</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+BIGNibAdditions.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_viewWithNib</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_viewWithNib</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

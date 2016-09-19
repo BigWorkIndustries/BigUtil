@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIViewController+StoryboardHelper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIViewController(StoryboardHelper)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIViewController+BIGStoryboardHelper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/BIG_instantiateFromMainStoryboard</TokenIdentifier>
+			<Abstract type="html">*  Instantiates a new instance of the view controller type from the main storyboard.
+*
+*  @return A new instance of the view controller.
+*
+*  @discussion This helper method depends on the view controller&apos;s storyboard identifier being set to the class name, and the mainStoryboard helper being previously set.</Abstract>
+			<DeclaredIn>UIViewController+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_instantiateFromMainStoryboard</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_instantiateFromMainStoryboard</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/BIG_instantiateFromStoryboardNamed:</TokenIdentifier>
+			<Abstract type="html">Instantiates a new instance of the view controller type from the named storyboard.</Abstract>
+			<DeclaredIn>UIViewController+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_instantiateFromStoryboardNamed:(NSString *)storyboardName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>storyboardName</Name>
+					<Abstract type="html">The name of the storyboard to use.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new instance of the view controller.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_instantiateFromStoryboardNamed:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/BIG_instantiateFromStoryboard:</TokenIdentifier>
+			<Abstract type="html">Instantiates a new instance of the view controller type from the passed storyboard.</Abstract>
+			<DeclaredIn>UIViewController+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)BIG_instantiateFromStoryboard:(UIStoryboard *)storyboard</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>storyboard</Name>
+					<Abstract type="html">An instance of the storyboard to use.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new instance of the view controller.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_instantiateFromStoryboard:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIViewController/BIG_inNavController</TokenIdentifier>
+			<Abstract type="html">Returns the instance inside of a UINavigationController.</Abstract>
+			<DeclaredIn>UIViewController+BIGStoryboardHelper.h</DeclaredIn>
+			
+			<Declaration>- (UINavigationController *)BIG_inNavController</Declaration>
+			
+			<ReturnValue><Abstract type="html">A UINavigationController instance with self as the root view controller.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_inNavController</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

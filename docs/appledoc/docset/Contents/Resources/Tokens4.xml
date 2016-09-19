@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSBundle+BIGVersionAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSBundle(BIGVersionAdditions)</TokenIdentifier>
+			<Abstract type="html">Helper categories to report the app&apos;s bundle version.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_majorVersion</TokenIdentifier>
+			<Abstract type="html">The major version of the app.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)BIG_majorVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">A number representing the major version of the app.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_majorVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_minorVersion</TokenIdentifier>
+			<Abstract type="html">The minor version of the app.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)BIG_minorVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">A number representing the minor version of the app.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_minorVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_patchVersion</TokenIdentifier>
+			<Abstract type="html">The patch version of the app.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)BIG_patchVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">A number representing the patch version of the app.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_patchVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_buildVersion</TokenIdentifier>
+			<Abstract type="html">The build version of the app.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)BIG_buildVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">A number representing the build version of the app.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_buildVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_versionParts</TokenIdentifier>
+			<Abstract type="html">An array of version parts with the major version starting at index 0.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)BIG_versionParts</Declaration>
+			
+			<ReturnValue><Abstract type="html">An array of strings representing the four part canonical version.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_versionParts</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_fourPartVersionString</TokenIdentifier>
+			<Abstract type="html">The four part canonical version string.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)BIG_fourPartVersionString</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representing the four part canonical version.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_fourPartVersionString</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_threePartVersionString</TokenIdentifier>
+			<Abstract type="html">The three part version string.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)BIG_threePartVersionString</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representing the three part version.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_threePartVersionString</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_marketingVersionString</TokenIdentifier>
+			<Abstract type="html">An alias for BIG_threePartVersionString.=</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)BIG_marketingVersionString</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_marketingVersionString</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_buildVersionString</TokenIdentifier>
+			<Abstract type="html">The build version string.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)BIG_buildVersionString</Declaration>
+			
+			<ReturnValue><Abstract type="html">A string representing the build version.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_buildVersionString</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_previousAppVersion</TokenIdentifier>
+			<Abstract type="html">Gets the previous app version installed.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)BIG_previousAppVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns the version string of the previous recorded app version, or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_previousAppVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_setPreviousAppVersion:</TokenIdentifier>
+			<Abstract type="html">Sets the previously installed app version.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_setPreviousAppVersion:(NSString *)appVersion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>appVersion</Name>
+					<Abstract type="html">A four part version string.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/BIG_setPreviousAppVersion:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_rotateAppVersionIfNew</TokenIdentifier>
+			<Abstract type="html">Rotates the previously recorded current version to the previous app version if BIGfoutPartVersionString is greater than BIGcurrentAppVersion.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_rotateAppVersionIfNew</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_rotateAppVersionIfNew</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_isFreshInstall</TokenIdentifier>
+			<Abstract type="html">Returns a Boolean indicating if a previous install was not recorded.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)BIG_isFreshInstall</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if this is a fresh install, NO if it is not.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_isFreshInstall</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_isCurrentVersionNewVersion</TokenIdentifier>
+			<Abstract type="html">Returns a Boolean indicating if the current app version is a new version.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)BIG_isCurrentVersionNewVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if the current version is a new version NO if it is not.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_isCurrentVersionNewVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_setCurrentAppVersion</TokenIdentifier>
+			<Abstract type="html">Sets the current app version to BIG_foutPartVersionString.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_setCurrentAppVersion</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_setCurrentAppVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_currentAppVersion</TokenIdentifier>
+			<Abstract type="html">The currently recorded app version. If one is not set, then the BIGfourPartVersionString will be set and that value returned;</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)BIG_currentAppVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">A four part version string.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_currentAppVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSBundle/BIG_setCurrentAppVersionToPreviousAppVersion</TokenIdentifier>
+			<Abstract type="html">Sets the previously recorded current version to the previous app version.</Abstract>
+			<DeclaredIn>NSBundle+BIGVersionAdditions.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_setCurrentAppVersionToPreviousAppVersion</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_setCurrentAppVersionToPreviousAppVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

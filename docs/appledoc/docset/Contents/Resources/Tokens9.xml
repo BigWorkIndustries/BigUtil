@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+BIGJSONHelpers.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(BIGJSONHelpers)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+BIGJSONHelpers.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/BIG_JSONObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+BIGJSONHelpers.h</DeclaredIn>
+			
+			<Declaration>- (id)BIG_JSONObject</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_JSONObject</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/BIG_JSONDictionary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+BIGJSONHelpers.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)BIG_JSONDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_JSONDictionary</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/BIG_JSONArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+BIGJSONHelpers.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)BIG_JSONArray</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_JSONArray</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
