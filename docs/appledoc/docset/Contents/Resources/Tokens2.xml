@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BIGLogging.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BIGLogging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGLogging.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGLogging/setupLogging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGLogging.h</DeclaredIn>
+			
+			<Declaration>+ (void)setupLogging</Declaration>
+			
+			
+			<Anchor>//api/name/setupLogging</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGLogging/logFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGLogging.h</DeclaredIn>
+			
+			<Declaration>+ (RMLogFormatter *)logFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/logFormatter</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

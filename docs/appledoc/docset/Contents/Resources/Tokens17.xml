@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+BIGHelpers.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(BIGHelpers)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+BIGHelpers.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_removeAllSubviews</TokenIdentifier>
+			<Abstract type="html">Removes all sub views of a the view.</Abstract>
+			<DeclaredIn>UIView+BIGHelpers.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_removeAllSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_removeAllSubviews</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_parentViewController</TokenIdentifier>
+			<Abstract type="html">Recursively checks the next responder to see if it&apos;s a UIViewController.</Abstract>
+			<DeclaredIn>UIView+BIGHelpers.h</DeclaredIn>
+			
+			<Declaration>- (UIViewController *)BIG_parentViewController</Declaration>
+			
+			<ReturnValue><Abstract type="html">The next UIViewController in the responder chain, or nil if it&apos;s not a UIViewController.</Abstract></ReturnValue>
+			<Anchor>//api/name/BIG_parentViewController</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_roundCornersWithRadius:</TokenIdentifier>
+			<Abstract type="html">Sets rounded corners on the view.</Abstract>
+			<DeclaredIn>UIView+BIGHelpers.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_roundCornersWithRadius:(CGFloat)radius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">The radius of the rounded corners.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/BIG_roundCornersWithRadius:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/BIG_borderWithWidth:color:</TokenIdentifier>
+			<Abstract type="html">Sets the border width and color.</Abstract>
+			<DeclaredIn>UIView+BIGHelpers.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_borderWithWidth:(CGFloat)width color:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>width</Name>
+					<Abstract type="html">border width.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">border color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/BIG_borderWithWidth:color:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

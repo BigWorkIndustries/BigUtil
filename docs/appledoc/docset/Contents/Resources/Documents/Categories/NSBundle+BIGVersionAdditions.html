@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>NSBundle(BIGVersionAdditions) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">BigUtil </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">BigWork Industries, LLC</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/BIG_buildVersion">- BIG_buildVersion</option>
+		
+		<option value="//api/name/BIG_buildVersionString">- BIG_buildVersionString</option>
+		
+		<option value="//api/name/BIG_currentAppVersion">- BIG_currentAppVersion</option>
+		
+		<option value="//api/name/BIG_fourPartVersionString">- BIG_fourPartVersionString</option>
+		
+		<option value="//api/name/BIG_isCurrentVersionNewVersion">- BIG_isCurrentVersionNewVersion</option>
+		
+		<option value="//api/name/BIG_isFreshInstall">- BIG_isFreshInstall</option>
+		
+		<option value="//api/name/BIG_majorVersion">- BIG_majorVersion</option>
+		
+		<option value="//api/name/BIG_marketingVersionString">- BIG_marketingVersionString</option>
+		
+		<option value="//api/name/BIG_minorVersion">- BIG_minorVersion</option>
+		
+		<option value="//api/name/BIG_patchVersion">- BIG_patchVersion</option>
+		
+		<option value="//api/name/BIG_previousAppVersion">- BIG_previousAppVersion</option>
+		
+		<option value="//api/name/BIG_rotateAppVersionIfNew">- BIG_rotateAppVersionIfNew</option>
+		
+		<option value="//api/name/BIG_setCurrentAppVersion">- BIG_setCurrentAppVersion</option>
+		
+		<option value="//api/name/BIG_setCurrentAppVersionToPreviousAppVersion">- BIG_setCurrentAppVersionToPreviousAppVersion</option>
+		
+		<option value="//api/name/BIG_setPreviousAppVersion:">- BIG_setPreviousAppVersion:</option>
+		
+		<option value="//api/name/BIG_threePartVersionString">- BIG_threePartVersionString</option>
+		
+		<option value="//api/name/BIG_versionParts">- BIG_versionParts</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">NSBundle(BIGVersionAdditions) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>NSBundle+BIGVersionAdditions.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Helper categories to report the app&rsquo;s bundle version.</p><p>This category assumes a four part canonical version number with the first three parts being read from the info.plist CFBundleShortVersionString key (marketing version, e.g. 1.2.3) and the fourth part being read from the info.plist CFBundleVersion key (technical / build version e.g. 4567). The versions combined make up an app store compliant version e.g. 1.2.3.4567. All versions must be incrementally higher reading from left to right in order to be accepted by the app store. e.g. 1.2.3.4567 can&rsquo;t be submitted after 1.2.3.5000, don&rsquo;t screw it up.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/BIG_majorVersion" title="BIG_majorVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_majorVersion">&ndash;&nbsp;BIG_majorVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The major version of the app.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSNumber *)BIG_majorVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A number representing the major version of the app.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The major version is the &ldquo;1&rdquo; in 1.2.3.4567.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_minorVersion" title="BIG_minorVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_minorVersion">&ndash;&nbsp;BIG_minorVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The minor version of the app.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSNumber *)BIG_minorVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A number representing the minor version of the app.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The minor version is the &ldquo;2&rdquo; in 1.2.3.4567.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_patchVersion" title="BIG_patchVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_patchVersion">&ndash;&nbsp;BIG_patchVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The patch version of the app.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSNumber *)BIG_patchVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A number representing the patch version of the app.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The patch version is the &ldquo;3&rdquo; in 1.2.3.4567.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_buildVersion" title="BIG_buildVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_buildVersion">&ndash;&nbsp;BIG_buildVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The build version of the app.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSNumber *)BIG_buildVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A number representing the build version of the app.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The build version is the &ldquo;4567&rdquo; in 1.2.3.4567.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_versionParts" title="BIG_versionParts"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_versionParts">&ndash;&nbsp;BIG_versionParts</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>An array of version parts with the major version starting at index 0.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSArray *)BIG_versionParts</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An array of strings representing the four part canonical version.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_fourPartVersionString" title="BIG_fourPartVersionString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_fourPartVersionString">&ndash;&nbsp;BIG_fourPartVersionString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The four part canonical version string.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)BIG_fourPartVersionString</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A string representing the four part canonical version.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The CFBundleShortVersionString + CFBundleVersion info.plist keys.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_threePartVersionString" title="BIG_threePartVersionString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_threePartVersionString">&ndash;&nbsp;BIG_threePartVersionString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The three part version string.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)BIG_threePartVersionString</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A string representing the three part version.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The CFBundleShortVersionString info.plist key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_marketingVersionString" title="BIG_marketingVersionString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_marketingVersionString">&ndash;&nbsp;BIG_marketingVersionString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>An alias for <a href="#//api/name/BIG_threePartVersionString">BIG_threePartVersionString</a>.=</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)BIG_marketingVersionString</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_buildVersionString" title="BIG_buildVersionString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_buildVersionString">&ndash;&nbsp;BIG_buildVersionString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The build version string.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)BIG_buildVersionString</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A string representing the build version.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The CFBundleVersion info.plist key.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_previousAppVersion" title="BIG_previousAppVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_previousAppVersion">&ndash;&nbsp;BIG_previousAppVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the previous app version installed.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)BIG_previousAppVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Returns the version string of the previous recorded app version, or nil.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_setPreviousAppVersion:" title="BIG_setPreviousAppVersion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_setPreviousAppVersion:">&ndash;&nbsp;BIG_setPreviousAppVersion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the previously installed app version.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)BIG_setPreviousAppVersion:(NSString *)<em>appVersion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>appVersion</code></th>
+						<td><p>A four part version string.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_rotateAppVersionIfNew" title="BIG_rotateAppVersionIfNew"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_rotateAppVersionIfNew">&ndash;&nbsp;BIG_rotateAppVersionIfNew</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rotates the previously recorded current version to the previous app version if BIG_foutPartVersionString is greater than BIG_currentAppVersion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)BIG_rotateAppVersionIfNew</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_isFreshInstall" title="BIG_isFreshInstall"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_isFreshInstall">&ndash;&nbsp;BIG_isFreshInstall</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a Boolean indicating if a previous install was not recorded.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)BIG_isFreshInstall</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if this is a fresh install, NO if it is not.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_isCurrentVersionNewVersion" title="BIG_isCurrentVersionNewVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_isCurrentVersionNewVersion">&ndash;&nbsp;BIG_isCurrentVersionNewVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a Boolean indicating if the current app version is a new version.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)BIG_isCurrentVersionNewVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if the current version is a new version NO if it is not.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_setCurrentAppVersion" title="BIG_setCurrentAppVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_setCurrentAppVersion">&ndash;&nbsp;BIG_setCurrentAppVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the current app version to BIG_foutPartVersionString.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)BIG_setCurrentAppVersion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_currentAppVersion" title="BIG_currentAppVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_currentAppVersion">&ndash;&nbsp;BIG_currentAppVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The currently recorded app version. If one is not set, then the BIGfourPartVersionString will be set and that value returned;</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)BIG_currentAppVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A four part version string.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/BIG_setCurrentAppVersionToPreviousAppVersion" title="BIG_setCurrentAppVersionToPreviousAppVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/BIG_setCurrentAppVersionToPreviousAppVersion">&ndash;&nbsp;BIG_setCurrentAppVersionToPreviousAppVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the previously recorded current version to the previous app version.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)BIG_setCurrentAppVersionToPreviousAppVersion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSBundle+BIGVersionAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2016 BigWork Industries, LLC. All rights reserved. Updated: 2016-09-19</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

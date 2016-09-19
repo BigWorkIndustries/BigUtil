@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UILocalNotification+BIGAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UILocalNotification(BIGAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILocalNotification+BIGAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILocalNotification/BIG_scheduleNotificationWithMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILocalNotification+BIGAdditions.h</DeclaredIn>
+			
+			<Declaration>+ (UILocalNotification *)BIG_scheduleNotificationWithMessage:(NSString *)message</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_scheduleNotificationWithMessage:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

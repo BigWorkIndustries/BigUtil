@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSArray+EnumExtensions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSArray(EnumExtensions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+EnumExtensions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSArray/stringWithEnum:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+EnumExtensions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringWithEnum:(NSUInteger)enumVal</Declaration>
+			
+			
+			<Anchor>//api/name/stringWithEnum:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSArray/enumFromString:default:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+EnumExtensions.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)enumFromString:(NSString *)strVal default:(NSUInteger)def</Declaration>
+			
+			
+			<Anchor>//api/name/enumFromString:default:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSArray/enumFromString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+EnumExtensions.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)enumFromString:(NSString *)strVal</Declaration>
+			
+			
+			<Anchor>//api/name/enumFromString:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

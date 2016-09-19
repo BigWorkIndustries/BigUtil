@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BIGKeychain.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BIGKeychain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/setBearerToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)setBearerToken:(NSDictionary *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBearerToken:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/bearerToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (NSDictionary *)bearerToken</Declaration>
+			
+			
+			<Anchor>//api/name/bearerToken</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/setAuthToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)setAuthToken:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setAuthToken:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/authToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)authToken</Declaration>
+			
+			
+			<Anchor>//api/name/authToken</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/setDefaultUsername:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)setDefaultUsername:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDefaultUsername:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/defaultUsername</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)defaultUsername</Declaration>
+			
+			
+			<Anchor>//api/name/defaultUsername</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/setDefaultPassword:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)setDefaultPassword:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDefaultPassword:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/defaultPassword</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)defaultPassword</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPassword</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/setCurrentUserId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)setCurrentUserId:(id)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCurrentUserId:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/currentUserId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (id)currentUserId</Declaration>
+			
+			
+			<Anchor>//api/name/currentUserId</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/setAPNSToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)setAPNSToken:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setAPNSToken:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/APNSToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)APNSToken</Declaration>
+			
+			
+			<Anchor>//api/name/APNSToken</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/hasDefaultCredentials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)hasDefaultCredentials</Declaration>
+			
+			
+			<Anchor>//api/name/hasDefaultCredentials</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BIGKeychain/clearDefaults</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BIGKeychain.h</DeclaredIn>
+			
+			<Declaration>+ (void)clearDefaults</Declaration>
+			
+			
+			<Anchor>//api/name/clearDefaults</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

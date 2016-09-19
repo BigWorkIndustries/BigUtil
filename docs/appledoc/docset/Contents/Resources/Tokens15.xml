@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UINavigationItem+BIGTitleImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UINavigationItem(BIGTitleImage)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UINavigationItem+BIGTitleImage.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UINavigationItem/BIG_setHeaderLogoWithImage:</TokenIdentifier>
+			<Abstract type="html">Sets the header title view with an image.</Abstract>
+			<DeclaredIn>UINavigationItem+BIGTitleImage.h</DeclaredIn>
+			
+			<Declaration>- (void)BIG_setHeaderLogoWithImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">An image to display as the title.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/BIG_setHeaderLogoWithImage:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

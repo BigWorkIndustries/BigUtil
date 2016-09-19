@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDateFormatter+RailsJSONDate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDateFormatter(RailsJSONDate)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDateFormatter+RailsJSONDate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDateFormatter/BIG_RailsJSONDateFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDateFormatter+RailsJSONDate.h</DeclaredIn>
+			
+			<Declaration>+ (NSDateFormatter *)BIG_RailsJSONDateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/BIG_RailsJSONDateFormatter</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

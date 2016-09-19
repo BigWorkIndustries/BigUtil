@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>BigUtil</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node>
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+                
+                
+                <Node>
+                    <Name>Blocks</Name>
+                    <Path>index.html</Path>
+                    <Subnodes>
+                        <NodeRef refid="21"/>
+                        
+                    </Subnodes>
+                </Node>
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>BIGKeychain</Name>
+            <Path>Classes/BIGKeychain.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/BIGKeychain.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/BIGKeychain.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/BIGKeychain.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>BIGLogging</Name>
+            <Path>Classes/BIGLogging.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/BIGLogging.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/BIGLogging.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/BIGLogging.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+		<Node id="3" type="file" documentType="reference">
+            <Name>NSArray(EnumExtensions)</Name>
+            <Path>Categories/NSArray+EnumExtensions.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSArray+EnumExtensions.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSArray+EnumExtensions.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSArray+EnumExtensions.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>NSBundle(BIGVersionAdditions)</Name>
+            <Path>Categories/NSBundle+BIGVersionAdditions.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSBundle+BIGVersionAdditions.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSBundle+BIGVersionAdditions.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSBundle+BIGVersionAdditions.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>NSDateFormatter(RailsJSONDate)</Name>
+            <Path>Categories/NSDateFormatter+RailsJSONDate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSDateFormatter+RailsJSONDate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSDateFormatter+RailsJSONDate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSDateFormatter+RailsJSONDate.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>NSDecimalNumber(BIGCurrencyHelpers)</Name>
+            <Path>Categories/NSDecimalNumber+BIGCurrencyHelpers.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSDecimalNumber+BIGCurrencyHelpers.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSDecimalNumber+BIGCurrencyHelpers.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSDecimalNumber+BIGCurrencyHelpers.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>NSNumber(BIGCurrencyHelpers)</Name>
+            <Path>Categories/NSNumber+BIGCurrencyHelpers.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSNumber+BIGCurrencyHelpers.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSNumber+BIGCurrencyHelpers.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSNumber+BIGCurrencyHelpers.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>NSString(BIGDataHelpers)</Name>
+            <Path>Categories/NSString+BIGDataHelpers.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSString+BIGDataHelpers.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSString+BIGDataHelpers.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSString+BIGDataHelpers.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>NSString(BIGJSONHelpers)</Name>
+            <Path>Categories/NSString+BIGJSONHelpers.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSString+BIGJSONHelpers.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSString+BIGJSONHelpers.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSString+BIGJSONHelpers.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>NSString(BIGValidationHelpers)</Name>
+            <Path>Categories/NSString+BIGValidationHelpers.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/NSString+BIGValidationHelpers.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/NSString+BIGValidationHelpers.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/NSString+BIGValidationHelpers.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>UIButton(BIGInvertColor)</Name>
+            <Path>Categories/UIButton+BIGInvertColor.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UIButton+BIGInvertColor.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UIButton+BIGInvertColor.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIButton+BIGInvertColor.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>UICollectionViewCell(BIGStoryboardHelper)</Name>
+            <Path>Categories/UICollectionViewCell+BIGStoryboardHelper.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UICollectionViewCell+BIGStoryboardHelper.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UICollectionViewCell+BIGStoryboardHelper.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UICollectionViewCell+BIGStoryboardHelper.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>UILabel(BIGFontAppearance)</Name>
+            <Path>Categories/UILabel+BIGFontAppearance.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UILabel+BIGFontAppearance.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UILabel+BIGFontAppearance.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Categories/UILabel+BIGFontAppearance.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>UILocalNotification(BIGAdditions)</Name>
+            <Path>Categories/UILocalNotification+BIGAdditions.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UILocalNotification+BIGAdditions.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UILocalNotification+BIGAdditions.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UILocalNotification+BIGAdditions.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>UINavigationItem(BIGTitleImage)</Name>
+            <Path>Categories/UINavigationItem+BIGTitleImage.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UINavigationItem+BIGTitleImage.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UINavigationItem+BIGTitleImage.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/UINavigationItem+BIGTitleImage.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>UITableViewCell(BIGStoryboardHelper)</Name>
+            <Path>Categories/UITableViewCell+BIGStoryboardHelper.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UITableViewCell+BIGStoryboardHelper.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UITableViewCell+BIGStoryboardHelper.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UITableViewCell+BIGStoryboardHelper.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>UIView(BIGHelpers)</Name>
+            <Path>Categories/UIView+BIGHelpers.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UIView+BIGHelpers.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UIView+BIGHelpers.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIView+BIGHelpers.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>UIView(BIGImageAdditions)</Name>
+            <Path>Categories/UIView+BIGImageAdditions.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UIView+BIGImageAdditions.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UIView+BIGImageAdditions.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIView+BIGImageAdditions.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>UIView(BIGNibAdditions)</Name>
+            <Path>Categories/UIView+BIGNibAdditions.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UIView+BIGNibAdditions.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UIView+BIGNibAdditions.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIView+BIGNibAdditions.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>UIViewController(StoryboardHelper)</Name>
+            <Path>Categories/UIViewController+StoryboardHelper.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UIViewController+StoryboardHelper.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UIViewController+StoryboardHelper.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIViewController+StoryboardHelper.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIViewController+StoryboardHelper.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        
+        
+        <Node id="21" type="file" documentType="reference">
+            <Name>__TYPE__</Name>
+            <Path>Blocks/__TYPE__.html</Path>
+            
+        </Node>
+        
+	</Library>
+</DocSetNodes>
