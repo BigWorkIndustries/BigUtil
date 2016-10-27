@@ -69,6 +69,13 @@ typedef void (^__TYPE__)__BLOCK_DEF__;
 void (^)__BLOCK_DEF__
 
 
+#define BIG_STRONG_BLOCK(__TYPE__) \
+BIG_BLOCK_PARAMETER(BIG_STRONG_SIMPLE_BLOCK(__TYPE__))
+
+#define BIG_STRONG_COMPLETION(__TYPE__) \
+BIG_BLOCK_PARAMETER(BIG_STRONG_COMPLETION_BLOCK(id,__TYPE__))
+
+
 /**
  *  BigSimpleBlock defined for convenience.
  */
