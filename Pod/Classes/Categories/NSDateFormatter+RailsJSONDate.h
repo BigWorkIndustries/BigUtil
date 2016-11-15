@@ -8,6 +8,6 @@
 
 @interface NSDateFormatter (RailsJSONDate)
 
-+ (NSDateFormatter*) BIG_RailsJSONDateFormatter;
++ (NSDateFormatter*) BIG_ISO8601JSONDateFormatter;
 
 @end

@@ -268,6 +268,10 @@
 		F7BCC0CB8DFB22AB34ECE9BC5C72DD2B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F9C166F7D2F2CE93A3B0CE3D5B8469 /* SystemConfiguration.framework */; };
 		F8B8BF70D3EF1403FBB9F81EF88AF2B2 /* UITableViewCell+BIGStoryboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C1B70EE008598FC701A9BF26B7B836 /* UITableViewCell+BIGStoryboardHelper.m */; };
 		F94D659BBE7224F22F748F23DDB81C6B /* UIView+BIGImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D253941B5A4A057F0C69876DA68711BB /* UIView+BIGImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA17FC861DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA17FC841DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.h */; };
+		FA17FC871DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC851DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m */; };
+		FA17FC8A1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA17FC881DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h */; };
+		FA17FC8B1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC891DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m */; };
 		FB66B70349AE9763025160A4E5BB6730 /* NSNumber+BIGCurrencyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00D2375F9ED18DF1A6836583EC8666 /* NSNumber+BIGCurrencyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBE95D29F85A148B411BD49123D9598D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE6C94844B36701C31DEF3BC6F7F7C /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FC20596ABFE14A61F171A29FD03275E7 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCC567443B603B3FE5B73B1A7BD9CFB /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -727,6 +731,10 @@
 		F98F0D3402E69EECF1D848C203580BFF /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
 		F9A2C2D087F088C4E3E8EF99A666ED0E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C1B70EE008598FC701A9BF26B7B836 /* UITableViewCell+BIGStoryboardHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+BIGStoryboardHelper.m"; sourceTree = "<group>"; };
+		FA17FC841DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BIGJSONAdditions.h"; sourceTree = "<group>"; };
+		FA17FC851DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BIGJSONAdditions.m"; sourceTree = "<group>"; };
+		FA17FC881DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BIGJSONAdditions.h"; sourceTree = "<group>"; };
+		FA17FC891DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BIGJSONAdditions.m"; sourceTree = "<group>"; };
 		FA4C43067E6CAC7B7D6B59004D23D49E /* Pods-BigUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD826EF8F27DF84EF0E7F8C0293A8628 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		FE70A0610B51B40DCCF42328657E4DBA /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
@@ -1634,6 +1642,10 @@
 				A8A29E33779CAC8616EDCFA748712CE7 /* NSString+BIGJSONHelpers.m */,
 				425D43A2D85D6FB11C7A949716459DC0 /* NSString+BIGValidationHelpers.h */,
 				09F8D4EA33765F03A7E32AF0C2DE7E3D /* NSString+BIGValidationHelpers.m */,
+				FA17FC841DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.h */,
+				FA17FC851DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m */,
+				FA17FC881DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h */,
+				FA17FC891DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -2015,7 +2027,9 @@
 			files = (
 				290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */,
 				4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */,
+				FA17FC861DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.h in Headers */,
 				43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */,
+				FA17FC8A1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h in Headers */,
 				F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */,
 				96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */,
@@ -2450,6 +2464,8 @@
 				1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */,
 				C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */,
+				FA17FC871DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m in Sources */,
+				FA17FC8B1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m in Sources */,
 				4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */,
 				C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */,
 				1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */,

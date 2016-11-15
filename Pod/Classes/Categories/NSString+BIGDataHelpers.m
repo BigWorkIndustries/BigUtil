@@ -10,7 +10,7 @@
 
 @implementation NSString (BIGDataHelpers)
 
-- (NSData*) BIGData
+- (NSData*) BIG_UTF8Data
 {
     NSData* data = [self dataUsingEncoding:NSUTF8StringEncoding];
     return data;

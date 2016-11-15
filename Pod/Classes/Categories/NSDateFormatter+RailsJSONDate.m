@@ -10,7 +10,7 @@ static NSDateFormatter *_JSONDateFormatter;
 
 @implementation NSDateFormatter (RailsJSONDate)
 
-+ (NSDateFormatter*) BIG_RailsJSONDateFormatter
++ (NSDateFormatter*) BIG_ISO8601JSONDateFormatter
 {
 	if (!_JSONDateFormatter) {
 		_JSONDateFormatter = [NSDateFormatter new];
