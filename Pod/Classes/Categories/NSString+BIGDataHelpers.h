@@ -10,6 +10,6 @@
 
 @interface NSString (BIGDataHelpers)
 
-- (NSData*) BIGData;
+- (NSData*) BIG_UTF8Data;
 
 @end
