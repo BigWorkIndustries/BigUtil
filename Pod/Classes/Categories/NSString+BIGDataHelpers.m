@@ -16,4 +16,10 @@
     return data;
 }
 
+- (NSData*) BIG_Base64Data
+{
+    NSData* data = [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    return data;
+}
+
 @end
