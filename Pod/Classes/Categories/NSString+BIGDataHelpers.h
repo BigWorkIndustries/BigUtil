@@ -12,4 +12,6 @@
 
 - (NSData*) BIG_UTF8Data;
 
+- (NSData*) BIG_Base64Data;
+
 @end
