@@ -272,6 +272,8 @@
 		FA17FC871DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC851DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m */; };
 		FA17FC8A1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA17FC881DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h */; };
 		FA17FC8B1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC891DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m */; };
+		FA17FC8E1DDE7E5C0081FE36 /* NSBundle+BigAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA17FC8C1DDE7E5C0081FE36 /* NSBundle+BigAdditions.h */; };
+		FA17FC8F1DDE7E5C0081FE36 /* NSBundle+BigAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC8D1DDE7E5C0081FE36 /* NSBundle+BigAdditions.m */; };
 		FB66B70349AE9763025160A4E5BB6730 /* NSNumber+BIGCurrencyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00D2375F9ED18DF1A6836583EC8666 /* NSNumber+BIGCurrencyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBE95D29F85A148B411BD49123D9598D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE6C94844B36701C31DEF3BC6F7F7C /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FC20596ABFE14A61F171A29FD03275E7 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCC567443B603B3FE5B73B1A7BD9CFB /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -735,6 +737,8 @@
 		FA17FC851DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BIGJSONAdditions.m"; sourceTree = "<group>"; };
 		FA17FC881DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BIGJSONAdditions.h"; sourceTree = "<group>"; };
 		FA17FC891DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BIGJSONAdditions.m"; sourceTree = "<group>"; };
+		FA17FC8C1DDE7E5C0081FE36 /* NSBundle+BigAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+BigAdditions.h"; sourceTree = "<group>"; };
+		FA17FC8D1DDE7E5C0081FE36 /* NSBundle+BigAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+BigAdditions.m"; sourceTree = "<group>"; };
 		FA4C43067E6CAC7B7D6B59004D23D49E /* Pods-BigUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD826EF8F27DF84EF0E7F8C0293A8628 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		FE70A0610B51B40DCCF42328657E4DBA /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
@@ -1646,6 +1650,8 @@
 				FA17FC851DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.m */,
 				FA17FC881DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h */,
 				FA17FC891DDBC0570081FE36 /* NSArray+BIGJSONAdditions.m */,
+				FA17FC8C1DDE7E5C0081FE36 /* NSBundle+BigAdditions.h */,
+				FA17FC8D1DDE7E5C0081FE36 /* NSBundle+BigAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -2037,6 +2043,7 @@
 				68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */,
 				6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */,
 				D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */,
+				FA17FC8E1DDE7E5C0081FE36 /* NSBundle+BigAdditions.h in Headers */,
 				76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */,
 				DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */,
 				56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
@@ -2458,6 +2465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA17FC8F1DDE7E5C0081FE36 /* NSBundle+BigAdditions.m in Sources */,
 				DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */,
 				C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */,
 				D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */,
