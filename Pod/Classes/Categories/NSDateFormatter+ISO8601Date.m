@@ -1,14 +1,14 @@
 //
-//  NSDateFormatter+GPJSONDate.m
+//  NSDateFormatter+ISO8601Date.m
 //
-//  Created by Vincil Bishop on 11/7/15.
+//  Created by Vincil Bishop on 11/7/16.
 //
 
-#import "NSDateFormatter+RailsJSONDate.h"
+#import "NSDateFormatter+ISO8601Date.h"
 
 static NSDateFormatter *_JSONDateFormatter;
 
-@implementation NSDateFormatter (RailsJSONDate)
+@implementation NSDateFormatter (ISO8601Date)
 
 + (NSDateFormatter*) BIG_ISO8601JSONDateFormatter
 {

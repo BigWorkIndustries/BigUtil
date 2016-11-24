@@ -19,4 +19,13 @@
     return contents;
 }
 
+- (NSData*) BIG_dataWithContentsOfFile:(NSString*)filename
+{
+    NSString *path = [self pathForResource:filename ofType:nil];
+    
+    NSData *data = [NSData dataWithContentsOfURL:path];
+    
+    return data;
+}
+
 @end

@@ -163,7 +163,7 @@
 		8FFE0CA5DFE3379BBDA253EBFF2D07E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B110A2AD9CBCDC6B9F349E62170A0B /* CoreGraphics.framework */; };
 		918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792441618DD974F4A5A540D4B938B2C /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		91A4E3DE9D5DB72A8198C0CA976C0B8E /* UICollectionViewCell+BIGStoryboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 885EA90EAD8B58B42EDA510A01A00ABA /* UICollectionViewCell+BIGStoryboardHelper.m */; };
-		92EF3D0CA079DE147B0238201B3F6C11 /* NSDateFormatter+RailsJSONDate.h in Headers */ = {isa = PBXBuildFile; fileRef = CE222D23389386C1D2F1B070B4A4621D /* NSDateFormatter+RailsJSONDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EF3D0CA079DE147B0238201B3F6C11 /* NSDateFormatter+ISO8601Date.h in Headers */ = {isa = PBXBuildFile; fileRef = CE222D23389386C1D2F1B070B4A4621D /* NSDateFormatter+ISO8601Date.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7D3E0E240F177BC1805DBC36F475 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		938BCA7AC618423D95D9E3FB2073C4C5 /* UINavigationItem+BIGTitleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7276460C4B6476B96DF6C294181E9919 /* UINavigationItem+BIGTitleImage.m */; };
 		945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA916ADC9723E6F5AD7AEA120CA9048F /* AFURLSessionManager.m */; };
@@ -253,7 +253,7 @@
 		EBE390FBEE536D454BB25D2CCB962C9D /* NSArray+EnumExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F63219A6B3620EB9A6BAC4723CAC3760 /* NSArray+EnumExtensions.m */; };
 		ECA90A527C299A22ED20FB7275FAB1DE /* VTSystemVersion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FA0B874AB2AE90DE6CB2383EB5BCE7 /* VTSystemVersion-dummy.m */; };
 		EDEC2B39C451FDDF1E5C383F15508E2F /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2147667225C5D18CD72AFD74CFA6978E /* SPTSpec.m */; };
-		EEAF78062386BA99A87EE29B22883295 /* NSDateFormatter+RailsJSONDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D79EB36B19EA76333E0F453D44D2885 /* NSDateFormatter+RailsJSONDate.m */; };
+		EEAF78062386BA99A87EE29B22883295 /* NSDateFormatter+ISO8601Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D79EB36B19EA76333E0F453D44D2885 /* NSDateFormatter+ISO8601Date.m */; };
 		EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D5ED5E67BEAAA99676234F6908427E /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0484D3FEC9C809059FBF19E41CDC025 /* RMLogFormatterOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8AB2A0AA01B5FA9B7C58A74E8A2151 /* RMLogFormatterOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0DDF02A078B917997FF025BB33BB842 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7147F4246A27CEE36CCB05F82591CA /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -278,6 +278,8 @@
 		FA17FC931DDE809B0081FE36 /* NSFileManager+BIGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC911DDE809B0081FE36 /* NSFileManager+BIGAdditions.m */; };
 		FA17FC961DDE81300081FE36 /* NSString+BIGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA17FC941DDE81300081FE36 /* NSString+BIGAdditions.h */; };
 		FA17FC971DDE81300081FE36 /* NSString+BIGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17FC951DDE81300081FE36 /* NSString+BIGAdditions.m */; };
+		FAD256A81DE74F48000E9864 /* NSData+BIGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD256A61DE74F48000E9864 /* NSData+BIGAdditions.h */; };
+		FAD256A91DE74F48000E9864 /* NSData+BIGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD256A71DE74F48000E9864 /* NSData+BIGAdditions.m */; };
 		FB66B70349AE9763025160A4E5BB6730 /* NSNumber+BIGCurrencyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00D2375F9ED18DF1A6836583EC8666 /* NSNumber+BIGCurrencyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBE95D29F85A148B411BD49123D9598D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE6C94844B36701C31DEF3BC6F7F7C /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FC20596ABFE14A61F171A29FD03275E7 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCC567443B603B3FE5B73B1A7BD9CFB /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -458,7 +460,7 @@
 		19CBB0A2960C86D8C789EC05B49BAE3F /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2A9CF6AD2BE4FD1061329477CB063E /* NSString+ZENVersions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZENVersions.h"; path = "Source/NSString+ZENVersions.h"; sourceTree = "<group>"; };
 		1B664C359D685577BFE13BC66B2F89E9 /* RMStringWordWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMStringWordWrapper.m; path = RMLogFormatter/RMStringWordWrapper.m; sourceTree = "<group>"; };
-		1D79EB36B19EA76333E0F453D44D2885 /* NSDateFormatter+RailsJSONDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+RailsJSONDate.m"; sourceTree = "<group>"; };
+		1D79EB36B19EA76333E0F453D44D2885 /* NSDateFormatter+ISO8601Date.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+ISO8601Date.m"; sourceTree = "<group>"; };
 		201D5B133747EA8F54B84D7A51A8F54C /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		2147667225C5D18CD72AFD74CFA6978E /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		21903E89FAED1A87672C5CB3AAE1E32C /* KPAStoryboardConvenience-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KPAStoryboardConvenience-umbrella.h"; sourceTree = "<group>"; };
@@ -681,7 +683,7 @@
 		CB8AB2A0AA01B5FA9B7C58A74E8A2151 /* RMLogFormatterOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMLogFormatterOptions.h; path = RMLogFormatter/RMLogFormatterOptions.h; sourceTree = "<group>"; };
 		CCD7DF1ABA9CA42C00E0CD95D87EBD13 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
 		CD2EF73FDC82B36F2773499D9AC77B52 /* RMLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMLogFormatter.h; path = RMLogFormatter/RMLogFormatter.h; sourceTree = "<group>"; };
-		CE222D23389386C1D2F1B070B4A4621D /* NSDateFormatter+RailsJSONDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+RailsJSONDate.h"; sourceTree = "<group>"; };
+		CE222D23389386C1D2F1B070B4A4621D /* NSDateFormatter+ISO8601Date.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+ISO8601Date.h"; sourceTree = "<group>"; };
 		CF33CC1FC566874E8FD0AA899183E644 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
 		CFBCB7827F547B9CD8E453D605CA2C05 /* UIView+BIGHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BIGHelpers.m"; sourceTree = "<group>"; };
 		CFDB9CB5360272AD50CC9437A7977A57 /* BIGCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BIGCategories.h; sourceTree = "<group>"; };
@@ -748,6 +750,8 @@
 		FA17FC941DDE81300081FE36 /* NSString+BIGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BIGAdditions.h"; sourceTree = "<group>"; };
 		FA17FC951DDE81300081FE36 /* NSString+BIGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BIGAdditions.m"; sourceTree = "<group>"; };
 		FA4C43067E6CAC7B7D6B59004D23D49E /* Pods-BigUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD256A61DE74F48000E9864 /* NSData+BIGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BIGAdditions.h"; sourceTree = "<group>"; };
+		FAD256A71DE74F48000E9864 /* NSData+BIGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BIGAdditions.m"; sourceTree = "<group>"; };
 		FD826EF8F27DF84EF0E7F8C0293A8628 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		FE70A0610B51B40DCCF42328657E4DBA /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		FEBA7E660F0DADE3EDF8450943D708B2 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
@@ -1642,8 +1646,8 @@
 				CFDB9CB5360272AD50CC9437A7977A57 /* BIGCategories.h */,
 				093192CCB95246E6D7494AC162F811D9 /* NSArray+EnumExtensions.h */,
 				F63219A6B3620EB9A6BAC4723CAC3760 /* NSArray+EnumExtensions.m */,
-				CE222D23389386C1D2F1B070B4A4621D /* NSDateFormatter+RailsJSONDate.h */,
-				1D79EB36B19EA76333E0F453D44D2885 /* NSDateFormatter+RailsJSONDate.m */,
+				CE222D23389386C1D2F1B070B4A4621D /* NSDateFormatter+ISO8601Date.h */,
+				1D79EB36B19EA76333E0F453D44D2885 /* NSDateFormatter+ISO8601Date.m */,
 				750E5FDE6C22D83877EA172CE1553418 /* NSDecimalNumber+BIGCurrencyHelpers.h */,
 				FF971CAF3BEDAB0A80F1F9EEAC2D1FC3 /* NSDecimalNumber+BIGCurrencyHelpers.m */,
 				BA00D2375F9ED18DF1A6836583EC8666 /* NSNumber+BIGCurrencyHelpers.h */,
@@ -1664,6 +1668,8 @@
 				FA17FC911DDE809B0081FE36 /* NSFileManager+BIGAdditions.m */,
 				FA17FC941DDE81300081FE36 /* NSString+BIGAdditions.h */,
 				FA17FC951DDE81300081FE36 /* NSString+BIGAdditions.m */,
+				FAD256A61DE74F48000E9864 /* NSData+BIGAdditions.h */,
+				FAD256A71DE74F48000E9864 /* NSData+BIGAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -1925,7 +1931,7 @@
 				70EA4FBB05847C05DDD9680498EB7367 /* BIGView.h in Headers */,
 				57135D516A25912CD46EA9114D7E2B9C /* NSArray+EnumExtensions.h in Headers */,
 				BA9A8DE0E9517D7CE56331459CDA0C45 /* NSBundle+BIGVersionAdditions.h in Headers */,
-				92EF3D0CA079DE147B0238201B3F6C11 /* NSDateFormatter+RailsJSONDate.h in Headers */,
+				92EF3D0CA079DE147B0238201B3F6C11 /* NSDateFormatter+ISO8601Date.h in Headers */,
 				25FE11C005EDFF3B0405AC2683BB987D /* NSDecimalNumber+BIGCurrencyHelpers.h in Headers */,
 				FB66B70349AE9763025160A4E5BB6730 /* NSNumber+BIGCurrencyHelpers.h in Headers */,
 				124C653F6AC5F7CCF8E36AD4B17EFC27 /* NSString+BIGDataHelpers.h in Headers */,
@@ -2048,6 +2054,7 @@
 				FA17FC861DDBC0410081FE36 /* NSDictionary+BIGJSONAdditions.h in Headers */,
 				43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */,
 				FA17FC8A1DDBC0570081FE36 /* NSArray+BIGJSONAdditions.h in Headers */,
+				FAD256A81DE74F48000E9864 /* NSData+BIGAdditions.h in Headers */,
 				FA17FC921DDE809B0081FE36 /* NSFileManager+BIGAdditions.h in Headers */,
 				F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				FA17FC961DDE81300081FE36 /* NSString+BIGAdditions.h in Headers */,
@@ -2406,7 +2413,7 @@
 				30DCF94D2C3A02981D0EB042399FBB5F /* BigUtil-dummy.m in Sources */,
 				EBE390FBEE536D454BB25D2CCB962C9D /* NSArray+EnumExtensions.m in Sources */,
 				39BA2AC0FBDD1A8A583CB621E90F52B7 /* NSBundle+BIGVersionAdditions.m in Sources */,
-				EEAF78062386BA99A87EE29B22883295 /* NSDateFormatter+RailsJSONDate.m in Sources */,
+				EEAF78062386BA99A87EE29B22883295 /* NSDateFormatter+ISO8601Date.m in Sources */,
 				1368A8A85D6526512A369DB0AF1BACBF /* NSDecimalNumber+BIGCurrencyHelpers.m in Sources */,
 				55B330EE0B38CF36045712F0142F35E7 /* NSNumber+BIGCurrencyHelpers.m in Sources */,
 				05ED5270829C8EB4E13E9C407411D684 /* NSString+BIGDataHelpers.m in Sources */,
@@ -2502,6 +2509,7 @@
 				CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */,
 				1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */,
 				79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */,
+				FAD256A91DE74F48000E9864 /* NSData+BIGAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

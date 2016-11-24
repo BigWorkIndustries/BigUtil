@@ -11,5 +11,6 @@
 @interface NSBundle (BigAdditions)
 
 - (NSString*) BIG_stringWithContentsOfFile:(NSString*)filename;
+- (NSData*) BIG_dataWithContentsOfFile:(NSString*)filename;
 
 @end
