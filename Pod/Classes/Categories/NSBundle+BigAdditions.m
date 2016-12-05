@@ -30,7 +30,7 @@
     
 - (NSString*) BIG_appName
 {
-    return [self objectForInfoDictionaryKey:kCFBundleNameKey];
+    return [self objectForInfoDictionaryKey:(NSString*)kCFBundleNameKey];
 }
     
 - (NSString*) BIG_version
@@ -40,7 +40,7 @@
     
 - (NSString*) BIG_build
 {
-    return [self objectForInfoDictionaryKey:kCFBundleVersionKey];
+    return [self objectForInfoDictionaryKey:(NSString*)kCFBundleVersionKey];
 }
     
 - (NSString*) BIG_prettyBuildVersion

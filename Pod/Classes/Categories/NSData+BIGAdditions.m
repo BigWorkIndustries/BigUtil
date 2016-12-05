@@ -24,7 +24,7 @@
 
 - (NSString*) BIG_ToBase64String
 {
-    return [self base64EncodedDataWithOptions:0];
+    return [self base64EncodedStringWithOptions:0];
 }
 
 @end
