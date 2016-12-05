@@ -23,7 +23,7 @@
 {
     NSString *path = [self pathForResource:filename ofType:nil];
     
-    NSData *data = [NSData dataWithContentsOfURL:path];
+    NSData *data = [NSData dataWithContentsOfFile:path];
     
     return data;
 }
