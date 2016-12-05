@@ -23,9 +23,32 @@
 {
     NSString *path = [self pathForResource:filename ofType:nil];
     
-    NSData *data = [NSData dataWithContentsOfURL:path];
+    NSData *data = [NSData dataWithContentsOfFile:path];
     
     return data;
 }
+    
+- (NSString*) BIG_appName
+{
+    return [self objectForInfoDictionaryKey:(NSString*)kCFBundleNameKey];
+}
+    
+- (NSString*) BIG_version
+{
+    return [self objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+}
+    
+- (NSString*) BIG_build
+{
+    return [self objectForInfoDictionaryKey:(NSString*)kCFBundleVersionKey];
+}
+    
+- (NSString*) BIG_prettyBuildVersion
+{
+    return [NSString stringWithFormat:@"v%@.%@",self.BIG_version,self.BIG_build];
+}
+
+    
+    
 
 @end
