@@ -20,5 +20,6 @@
 #import "NSString+BIGDataHelpers.h"
 #import "NSString+BIGJSONHelpers.h"
 #import "NSString+BIGValidationHelpers.h"
+#import "UIImage+BIGAdditions.h"
 
 #endif
