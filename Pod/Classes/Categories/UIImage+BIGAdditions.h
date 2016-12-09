@@ -10,4 +10,7 @@
 
 @interface UIImage (BIGAdditions)
 
+- (NSData*) BIG_toJPGData;
+- (NSData*) BIG_toPNGData;
+
 @end

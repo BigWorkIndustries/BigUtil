@@ -10,4 +10,16 @@
 
 @implementation UIImage (BIGAdditions)
 
+- (NSData*) BIG_toJPGData
+{
+    NSData *data = UIImageJPEGRepresentation(self, 1);
+    return data;
+}
+
+- (NSData*) BIG_toPNGData
+{
+    NSData *data = UIImageJPEGRepresentation(self, 1);
+    return data;
+}
+
 @end
