@@ -27,4 +27,10 @@
     return [self base64EncodedStringWithOptions:0];
 }
 
+- (void) BIG_writeToFile:(NSString*)filename
+{
+    NSURL *url = [[[NSFileManager defaultManager] BIG_documentsDirectory] URLByAppendingPathComponent:filename];
+    [self writeToURL:url atomically:YES];
+}
+
 @end
