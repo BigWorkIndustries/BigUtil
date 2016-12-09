@@ -13,5 +13,6 @@
 - (UIImage*) BIG_toImage;
 - (NSString*) BIG_ToUTF8String;
 - (NSString*) BIG_ToBase64String;
+- (void) BIG_writeToFile:(NSString*)filename;
 
 @end
