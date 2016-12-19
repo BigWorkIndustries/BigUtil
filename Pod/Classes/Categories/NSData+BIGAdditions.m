@@ -17,6 +17,21 @@
     return image;
 }
 
+- (UIImage*) BIG_toPNGImage
+{
+    UIImage *image = [UIImage imageWithData:self];
+    NSData *data = UIImagePNGRepresentation(image);
+    return data;
+}
+
+
+- (UIImage*) BIG_toJPGImage
+{
+    UIImage *image = [UIImage imageWithData:self];
+    NSData *data = UIImageJPEGRepresentation(image,1);
+    return data;
+}
+
 - (NSString*) BIG_ToUTF8String
 {
     return [[NSString alloc] initWithData:self encoding:NSUTF8StringEncoding];

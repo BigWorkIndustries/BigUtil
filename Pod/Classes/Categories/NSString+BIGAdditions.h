@@ -15,5 +15,6 @@
 - (void) BIG_writeToFile:(NSString*)filename;
 - (NSData*) BIG_toBase64Data;
 - (NSData*) BIG_toUTF8Data;
+- (BOOL) BIG_isEmpty;
 
 @end
