@@ -42,4 +42,11 @@
     return data;
 }
 
+- (BOOL) BIG_isEmpty
+{
+    NSString *emptyString = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    
+    return [emptyString isEqualToString:@""];
+}
+
 @end
