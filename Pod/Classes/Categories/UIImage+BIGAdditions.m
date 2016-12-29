@@ -22,4 +22,9 @@
     return data;
 }
 
+- (UIImage*) BIG_rotate:(UIImageOrientation)orientation
+{
+    return [[UIImage alloc] initWithCGImage:self.CGImage scale:1.0f orientation:orientation];
+}
+
 @end
