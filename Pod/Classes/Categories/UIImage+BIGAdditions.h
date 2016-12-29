@@ -12,5 +12,6 @@
 
 - (NSData*) BIG_toJPGData;
 - (NSData*) BIG_toPNGData;
+- (UIImage*) BIG_rotate:(UIImageOrientation)orientation;
 
 @end
