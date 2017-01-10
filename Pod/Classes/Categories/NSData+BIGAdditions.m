@@ -21,7 +21,7 @@
 {
     UIImage *image = [UIImage imageWithData:self];
     NSData *data = UIImagePNGRepresentation(image);
-    return data;
+    return [data BIG_toImage];
 }
 
 
@@ -29,7 +29,7 @@
 {
     UIImage *image = [UIImage imageWithData:self];
     NSData *data = UIImageJPEGRepresentation(image,1);
-    return data;
+    return [data BIG_toImage];
 }
 
 - (NSString*) BIG_ToUTF8String
