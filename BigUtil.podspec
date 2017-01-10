@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BigUtil"
-  s.version          = "1.3.0"
+  s.version          = "1.4.0"
   s.summary          = "A collection of ever useful yet hard to reproduce utilities, helpers, and categories for iOS/Objective-C."
 
 # This description is used to generate tags and improve search results.
